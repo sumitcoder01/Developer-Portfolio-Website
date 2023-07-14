@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>devportfollio Website</title>
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="only screen and (max-width:748px)" href="css/phone.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar flex">
+            <div class="leftnav text-center">
+                <a href="/index.html">Sumit's Portfolio</a>
+            </div>
+            <div class="rightnav">
+                <ul class="navlist flex">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/index.html">About</a></li>
+                    <li><a href="/index.html">Services</a></li>
+                    <li><a href="/index.html">Projects</a></li>
+                    <li><a href="/index.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="section-1 flex secondary-center my-3">
+            <div class="leftsection flex mx-2">
+                <div class="leftsection-text">
+                    <div>Hi My Name is <span class="text-purple">Sumit</span></div>
+                    <div>and I am a Passionate</div>
+                    <div><span id="element" class="text-purple"></span></div>
+                </div>
+                <div class="buttons">
+                    <button class="btn my-3 btn-rounded">Download Resume</button>
+                    <button class="btn my-3 btn-rounded mx-2">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightsection flex mx-2 my-2">
+                <img src="img/bg.jpg">
+            </div>
+
+        </section>
+        <hr class="bar secondary-center">
+        <section class="section-2 secondary-center my-3">
+            <div class="text-gray my-3">What I have done so far</div>
+            <div class="my-3">
+                <h1>Work Experience</h1>
+            </div>
+            <hr class="line secondary-center">
+            <div class="horizontal flex">
+                <div class="vertical">
+                    <div class="logo">
+                        <img src="img/twitter.png">
+                    </div>
+                    <div class="vertical-title">
+                        HTML Developer - Twitter(2010-2012)
+                    </div>
+                    <div class="vertical-message">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam a iusto ullam accusantium
+                        suscipit, in provident omnis! Aspernatur itaque dolore doloribus nostrum est? Repellat nemo
+                        repellendus eaque minima cupiditate enim.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="logo">
+                        <img src="img/facebook.png">
+                    </div>
+                    <div class="vertical-title">
+                        Node js  Developer - Facebook(2012-2014)
+                    </div>
+                    <div class="vertical-message">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam a iusto ullam accusantium
+                        suscipit, in provident omnis! Aspernatur itaque dolore doloribus nostrum est? Repellat nemo
+                        repellendus eaque minima cupiditate enim.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="logo">
+                        <img src="img/instagram.png">
+                    </div>
+                    <div class="vertical-title">
+                            Node js  Developer - Instagram(2014-2016)
+                    </div>
+                    <div class="vertical-message">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam a iusto ullam accusantium
+                        suscipit, in provident omnis! Aspernatur itaque dolore doloribus nostrum est? Repellat nemo
+                        repellendus eaque minima cupiditate enim.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="logo">
+                        <img src="img/whatsapp.png">
+                    </div>
+                    <div class="vertical-title">
+                            HTML  Developer - Whatsapp(2016-2019)
+                    </div>
+                    <div class="vertical-message">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam a iusto ullam accusantium
+                        suscipit, in provident omnis! Aspernatur itaque dolore doloribus nostrum est? Repellat nemo
+                        repellendus eaque minima cupiditate enim.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="logo">
+                        <img src="img/youtube.png">
+                    </div>
+                    <div class="vertical-title">
+                            Node js  Developer - Youtube(209-2023)
+                    </div>
+                    <div class="vertical-message">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam a iusto ullam accusantium
+                        suscipit, in provident omnis! Aspernatur itaque dolore doloribus nostrum est? Repellat nemo
+                        repellendus eaque minima cupiditate enim.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="subfooter flex flex-wrap">
+            <div>Sumit's Developer Portfolio</div>
+            <ul class="footerlist">
+              <li class="my-1"><a href="/index.html">Home</a></li>
+              <li class="my-1"><a href="/index.html">About</a></li>
+              <li class="my-1"><a href="/index.html">Services</a></li>
+              <li class="my-1"><a href="/index.html">Contact</a></li>
+            </ul>
+            <ul class="footerlist">
+              <li class="my-1"><a href="/index.html">Home</a></li>
+              <li class="my-1"><a href="/index.html">About</a></li>
+              <li class="my-1"><a href="/index.html">Services</a></li>
+              <li class="my-1"><a href="/index.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="mainfooter flex">www.sumitsdevportfolio.com | All rights reserved</div>
+    </footer>
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphics Designer', 'C++ Developer', 'Java Developer', 'Python Developer', 'Project Management'],
+            typeSpeed: 100,
+        });
+
+    </script>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

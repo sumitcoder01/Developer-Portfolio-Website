@@ -1,0 +1,34 @@
+.navbar {
+    flex-direction : column;
+    justify-content: space-evenly;
+}
+
+.rightnav {
+    width: 90%;
+}
+
+@media screen and (max-width:932px) {
+    .leftsection {
+        justify-content: center;
+        align-items    : center;
+        width          : 92%;
+    }
+
+    .rightsection {
+        display: none;
+    }
+}
+
+@media screen and (max-width:440px) {
+
+    .subfooter {
+        height: 429px;
+        flex-direction: column;
+    }
+    .navlist{
+        font-size:12px;
+    }
+    .leftnav >a{
+        font-size: 1.1rem;
+    }
+}
